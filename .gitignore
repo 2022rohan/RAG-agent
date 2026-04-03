@@ -1,0 +1,8 @@
+.env
+rag.ipynb
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+agent_ai/
