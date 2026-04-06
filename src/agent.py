@@ -18,5 +18,5 @@ def build_agent(vector_store):
         tools,
         system_prompt=prompt
     )
-
+    
     return agent

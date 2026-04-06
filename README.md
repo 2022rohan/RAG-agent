@@ -2,6 +2,9 @@
 
 A Retrieval-Augmented Generation (RAG) implementation built with LangChain, leveraging Google's Gemini models for embeddings and chat completions. This agent can retrieve context directly from web pages (via URLs) to accurately answer user queries based on the fetched data.
 
+Medium Blog Link for this project:[Theory] https://medium.com/@rohan2010lather/ep4-understand-rag-in-6-easy-steps-b8e13c784eda
+[Hands-On]https://medium.com/@rohan2010lather/ep6-building-your-first-rag-agent-with-langchain-and-google-gemini-130c3ccae686
+
 ## Features
 
 - **Web Document Loading:** Fetches content directly from a specified URL using standard web loader tools.
@@ -62,3 +65,4 @@ python main.py
 ```
 
 The agent will load the website, parse the context, create embeddings, define its retriever tool, and stream the final answer back to your console!
+

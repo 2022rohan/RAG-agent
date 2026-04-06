@@ -11,4 +11,4 @@ EMBEDDING_MODEL = "models/gemini-embedding-001"
 LLM_MODEL = "models/gemini-1.5-flash"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
-model = init_chat_model("google_genai:gemini-2.5-flash-lite")
+model = init_chat_model("google_genai:gemini-2.5-flash")

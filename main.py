@@ -8,10 +8,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-url="https://lilianweng.github.io/posts/2023-06-23-agent/"
+url="any_url_you_think_has_some_information"
 
 os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
-
 
 docs=web_load_docs(url)
 
@@ -22,7 +21,7 @@ vector_store=store_docs(docs_split)
 agent=build_agent(vector_store)
 
 query = (
-    "Explain what is name of the author."
+    "what is tool integration done in AI agents?"
 )
 
 for event in agent.stream(
